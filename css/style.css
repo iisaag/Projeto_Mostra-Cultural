@@ -8,16 +8,38 @@
 
 body {
     font-family: Montserrat;
-    background-color: rgb(252, 252, 252);
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
+    overflow: hidden; /* Para evitar que o conteúdo do body ultrapasse */
+}
+
+body::before {
+    content: ""; /* Cria um pseudo-elemento vazio */
+    position: absolute; /* Permite que o pseudo-elemento cubra o body */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/capa-b.jpg"); /* Define a imagem de fundo */
+    background-size: cover; /* A imagem cobre todo o fundo */
+    background-position: center; /* A imagem é centralizada */
+    background-repeat: no-repeat; /* A imagem não se repete */
+    filter: blur(8px); /* Aplica o efeito de desfoque */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo do body */
+}
+
+.container-wrapper {
+    position: relative; /* Para que os filhos fiquem acima do pseudo-elemento */
+    z-index: 1; /* Garante que o conteúdo fique acima do fundo desfocado */
 }
 
 header {
+    color: rgb(255, 255, 255);
     padding: 15px;
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgrey;
+    background-color: rgb(0, 0, 0);
 }
 
 header nav {
@@ -28,7 +50,7 @@ header nav {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: white;
     transition: 1s;
     margin: 10px;
 }
@@ -60,6 +82,18 @@ header a:hover {
     padding: 20px;
 }
 
+
+#sobre {
+    font-size: 20px;
+    margin-top: -35px;
+}
+
+#cont-sobre {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
 /* Estilo do segundo contêiner (direita) */
 .container {
     display: flex;
@@ -67,28 +101,31 @@ header a:hover {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    height: 370px;
-    width: 450px;
+    height: 300px;
+    width: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 32px 1px rgba(171, 171, 171, 1);
     padding: 20px;
 }
 
 #player {
-    text-align: center;
+    display: flex; /* Permite que os filhos se alinhem em linha */
+    align-items: center; /* Alinha verticalmente no centro */
+    text-align: left; /* Alinha o texto à esquerda */
 }
 
 #music-cover {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-right: 50px; /* Espaço entre a imagem e o texto */
 }
 
 button {
     margin: 5px;
+    margin-top: 10px;
     padding: 5px 10px;
-    font-size: 2em;
+    font-size: 2.3em;
     cursor: pointer;
     background: none;
     border: none;
@@ -101,7 +138,7 @@ button:hover {
 
 #progress-container {
     width: 100%; /* Para ocupar toda a largura do player */
-    height: 8px; /* Altura da barra de progresso */
+    height: 7px; /* Altura da barra de progresso */
     background-color: #ffffff; /* Cor de fundo da barra */
     border-radius: 10px;
     margin-top: 10px; /* Espaço acima da barra de progresso */
@@ -109,9 +146,68 @@ button:hover {
     box-shadow: 0px 0px 10px 0px rgba(222, 222, 222, 1);
 }
 
+/* Estilo do preenchimento da barra de progresso */
 #progress-bar {
-    height: 100%;
-    width: 0%; /* Começa vazio */
-    background-color: #000000; /* Cor do preenchimento */
+    height: 100%; /* Para ocupar toda a altura do contêiner */
+    background-color: #000000; /* Cor da barra de progresso */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 0%; /* Inicialmente, largura 0 */
+}
+
+/* Volume slider container */
+.volume-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 8px;
+}
+
+#volume-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Volume control with white background and shadow */
+.volume-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    background-color: #ffffff;
+    padding: 5px;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(222, 222, 222, 1);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.volume-control.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Estilo do controle deslizante */
+#volume-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #001e5e var(--volume-level, 100%), #d3d3d3 0%);
+    outline: none;
+    border-radius: 5px;
+}
+
+/* Ajusta o tamanho e a cor do thumb do controle deslizante */
+#volume-slider::-webkit-slider-thumb,
+#volume-slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 8px; /* Menor largura do thumb */
+    height: 8px; /* Menor altura do thumb */
+    background-color: #001e5e; /* Cor azul escuro para combinar com a barra */
+    border-radius: 50%; /* Deixa a bolinha redonda */
 }

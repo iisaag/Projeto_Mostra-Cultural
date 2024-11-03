@@ -1,6 +1,6 @@
 const playlist = [
-    { title: "A", file: "../audios/foi-o-p-diddy.mp3", artist: "Artista A", cover: "../images/capa-a.jpg" },
-    { title: "B", file: "../audios/me-chama-de-lorde.mp3", artist: "Artista B", cover: "../images/capa-b.jpg" },
+    { title: "Candeia", file: "../audios/spotifydown.com - CANDEIA.mp3", artist: "Black Pantera", cover: "../img/capa-b.jpg" },
+    { title: "B", file: "../audios/me-chama-de-lorde.mp3", artist: "Artista B", cover: "../img/Capa-b.jpg" },
     { title: "C", file: "../audios/sad-meow-song.mp3", artist: "Artista C", cover: "../images/capa-c.jpg" }
 ];
 
@@ -28,8 +28,10 @@ function loadTrack(trackIndex) {
 
 // Atualiza a barra de progresso conforme a música toca
 audioPlayer.addEventListener("timeupdate", () => {
-    const progressPercent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
-    progressBar.style.width = `${progressPercent}%`;
+    if (audioPlayer.duration) { // Verifica se a duração está disponível
+        const progressPercent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+        progressBar.style.width = `${progressPercent}%`;
+    }
 });
 
 // Permite que o usuário clique na barra de progresso para pular para um ponto específico
@@ -70,3 +72,21 @@ playPauseButton.addEventListener("click", () => {
 
 // Carrega a primeira música ao carregar a página
 window.onload = () => loadTrack(currentTrack);
+
+const volumeButton = document.getElementById("volume-button");
+const volumeControl = document.getElementById("volume-control");
+const volumeSlider = document.getElementById("volume-slider");
+
+// Define o volume inicial do player com base no valor do slider
+audioPlayer.volume = volumeSlider.value;
+
+// Alterna a visibilidade do controle de volume quando o botão é clicado
+volumeButton.addEventListener("click", () => {
+    volumeControl.classList.toggle("show"); // Alterna a classe 'show'
+});
+
+// Atualiza o volume conforme o usuário move o slider e ajusta a cor do preenchimento
+volumeSlider.addEventListener("input", () => {
+    audioPlayer.volume = volumeSlider.value;
+    volumeSlider.style.setProperty("--volume-level", `${volumeSlider.value * 100}%`);
+});
