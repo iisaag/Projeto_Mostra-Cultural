@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title> Mostra Cultural </title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1><a href="../html/index.html"> Mostra Cultural </a></h1>
+            <nav>
+                <a class="links" href="../html/qr-code.html"> QR Code playlist</a>
+                <a class="links" href="../html/creditos.html"> Créditos</a>
+            </nav>
+        </header>
+    </div>
+    <div class="container-wrapper">
+        <div class="container">
+            <div id="player">
+                <img id="music-cover" src="" alt="Capa da Música">
+                <div>
+                    <h2 id="music-title">Título da Música</h2>
+                    <p id="music-artist">Artista</p>
+                    <audio id="audio-player"></audio>
+                    <div id="progress-container">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <button id="prev"><i class='bx bx-skip-previous'></i></button>
+                    <button id="playPause"><i class='bx bx-play'></i></button>
+                    <button id="next"><i class='bx bx-skip-next'></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="container2"> 
+            <h2 id="sobre">Sobre a banda</h2>
+            <p id="cont-sobre"></p>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

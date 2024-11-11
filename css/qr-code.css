@@ -12,6 +12,20 @@ body {
     overflow: hidden; /* Para evitar que o conteúdo do body ultrapasse */
 }
 
+body::before {
+    content: ""; /* Cria um pseudo-elemento vazio */
+    position: absolute; /* Permite que o pseudo-elemento cubra o body */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/background-qrcode.jpg"); /* Define a imagem de fundo */
+    background-size: cover; /* A imagem cobre todo o fundo */
+    background-position: center; /* A imagem é centralizada */
+    background-repeat: no-repeat; /* A imagem não se repete */
+    filter: blur(8px); /* Aplica o efeito de desfoque */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo do body */
+}
 .container-wrapper {
     display: flex;
     justify-content: center;
@@ -64,5 +78,5 @@ header a {
 }
 
 header a:hover {
-    text-decoration: underline;
+    transform: scale(1.3);
 }
