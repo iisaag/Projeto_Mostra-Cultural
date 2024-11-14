@@ -18,217 +18,217 @@ const playlist = [
         file: "../audios/spotifydown.com - Marighella.mp3", 
         artist: "Punho de Mahin", 
         cover: "../img/capas/Capa-mahin.jpg", 
-        sobre: "Black Book Club fala sobre empoderamento e cultura."
+        sobre: "Formado por integrantes negros e periféricos, o grupo quer resgatar as histórias de brasileiros como Carlos Marighella e Luiza Mahin por meio da música. No Próxima Parada de hoje, nós trocamos ideia com a Natália e também com o baterista da banda, Paulo Tertuliano, que é do Morro do Macaco, em Cotia. Os dois falam dos trabalhos do grupo e da luta pela diversidade racial no cenário musical."
     },
     { 
         title: "Racistas", 
         file: "../audios/spotifydown.com - Racistas.mp3", 
         artist: "Punho de Mahin", 
         cover: "../img/capas/Capa-mahin.jpg", 
-        sobre: "Uma música explosiva com temas de revolução."
+        sobre: "Formado por integrantes negros e periféricos, o grupo quer resgatar as histórias de brasileiros como Carlos Marighella e Luiza Mahin por meio da música. No Próxima Parada de hoje, nós trocamos ideia com a Natália e também com o baterista da banda, Paulo Tertuliano, que é do Morro do Macaco, em Cotia. Os dois falam dos trabalhos do grupo e da luta pela diversidade racial no cenário musical."
     },
     { 
         title: "Punho de Mahin", 
         file: "../audios/spotifydown.com - Punho de Mahin.mp3", 
         artist: "Punho de Mahin", 
         cover: "../img/capas/Capa-mahin.jpg", 
-        sobre: "Letra baseada em passagens bíblicas."
+        sobre: "Formado por integrantes negros e periféricos, o grupo quer resgatar as histórias de brasileiros como Carlos Marighella e Luiza Mahin por meio da música. No Próxima Parada de hoje, nós trocamos ideia com a Natália e também com o baterista da banda, Paulo Tertuliano, que é do Morro do Macaco, em Cotia. Os dois falam dos trabalhos do grupo e da luta pela diversidade racial no cenário musical."
     },
     { 
         title: "River", 
         file: "../audios/spotifydown.com - River.mp3", 
         artist: "Leon Bridges", 
         cover: "../img/capas/Capa-leonbridges.jpg", 
-        sobre: "Fala sobre a realidade das periferias."
+        sobre: "Leon Bridges é um cantor e compositor americano que mistura soul, R&B e gospel, conhecido pelo estilo retrô inspirado nos anos 60. Ele ganhou fama com o álbum Coming Home (2015) e se destaca pela voz suave e autenticidade."
     },
     { 
         title: "O Rap É Meu Divã ", 
         file: "../audios/spotifydown.com - O Rap É Meu Divã.mp3", 
         artist: "Meire D'Origem, Carlos Eduardo Galvão", 
         cover: "../img/capas/Capa-meire.jpg", 
-        sobre: "Uma homenagem às origens africanas."
+        sobre: "Meire D'Origem é uma MC e ativista do rap nacional do Vale do Paraíba, SP. Além da música, ela promove oficinas de artes e poesia em escolas e penitenciárias, realiza palestras sobre Hip Hop e organiza encontros para fortalecer e empoderar mulheres em sua comunidade."
     },
     { 
         title: "Direitos Violados", 
         file: "../audios/spotifydown.com - Direitos Violados.mp3", 
         artist: "Punho de Mahin", 
         cover: "../img/capas/Capa-mahin.jpg", 
-        sobre: "História de um detento narrada em versos."
+        sobre: "Formado por integrantes negros e periféricos, o grupo quer resgatar as histórias de brasileiros como Carlos Marighella e Luiza Mahin por meio da música. No Próxima Parada de hoje, nós trocamos ideia com a Natália e também com o baterista da banda, Paulo Tertuliano, que é do Morro do Macaco, em Cotia. Os dois falam dos trabalhos do grupo e da luta pela diversidade racial no cenário musical."
     },
     { 
         title: "Navio Negreiro", 
         file: "../audios/spotifydown.com - Navio Negreiro.mp3", 
         artist: "Punho de Mahin", 
         cover: "../img/capas/Capa-mahin.jpg", 
-        sobre: "Sobre questões de direitos humanos."
+        sobre: "Formado por integrantes negros e periféricos, o grupo quer resgatar as histórias de brasileiros como Carlos Marighella e Luiza Mahin por meio da música. No Próxima Parada de hoje, nós trocamos ideia com a Natália e também com o baterista da banda, Paulo Tertuliano, que é do Morro do Macaco, em Cotia. Os dois falam dos trabalhos do grupo e da luta pela diversidade racial no cenário musical."
     },
     { 
         title: "Protagonista", 
         file: "../audios/spotifydown.com - Protagonista.mp3", 
         artist: "Punho de Mahin", 
         cover: "../img/capas/Capa-mahin.jpg", 
-        sobre: "Uma música forte sobre poder e influência."
+        sobre: "Formado por integrantes negros e periféricos, o grupo quer resgatar as histórias de brasileiros como Carlos Marighella e Luiza Mahin por meio da música. No Próxima Parada de hoje, nós trocamos ideia com a Natália e também com o baterista da banda, Paulo Tertuliano, que é do Morro do Macaco, em Cotia. Os dois falam dos trabalhos do grupo e da luta pela diversidade racial no cenário musical."
     },
     { 
         title: "Estupidez", 
         file: "../audios/spotifydown.com - Estupidez.mp3", 
         artist: "Punho de Mahin", 
         cover: "../img/capas/Capa-mahin.jpg", 
-        sobre: "Reflexão sobre atos de violência e intolerância."
+        sobre: "Formado por integrantes negros e periféricos, o grupo quer resgatar as histórias de brasileiros como Carlos Marighella e Luiza Mahin por meio da música. No Próxima Parada de hoje, nós trocamos ideia com a Natália e também com o baterista da banda, Paulo Tertuliano, que é do Morro do Macaco, em Cotia. Os dois falam dos trabalhos do grupo e da luta pela diversidade racial no cenário musical."
     },
     { 
         title: "Xingú", 
         file: "../audios/spotifydown.com - Xingú.mp3", 
         artist: "Punho de Mahin", 
         cover: "../img/capas/Capa-mahin.jpg", 
-        sobre: "Mensagem de paz e esperança."
+        sobre: "Formado por integrantes negros e periféricos, o grupo quer resgatar as histórias de brasileiros como Carlos Marighella e Luiza Mahin por meio da música. No Próxima Parada de hoje, nós trocamos ideia com a Natália e também com o baterista da banda, Paulo Tertuliano, que é do Morro do Macaco, em Cotia. Os dois falam dos trabalhos do grupo e da luta pela diversidade racial no cenário musical."
     },
     { 
         title: "PROVÉRBIOS", 
         file: "../audios/spotifydown.com - PROVÉRBIOS.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Uma música profunda e introspectiva."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "BOOM!", 
         file: "../audios/spotifydown.com - BOOM!.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Sobre o orgulho da identidade e herança."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "TRADUÇÃO", 
         file: "../audios/spotifydown.com - TRADUÇÃO.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Homenagem ao ativista brasileiro Marighella."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "PROMISSÓRIA", 
         file: "../audios/spotifydown.com - PROMISSÓRIA.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Uma música que incentiva a ação."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "BLACK BOOK CLUB", 
         file: "../audios/spotifydown.com - BLACK BOOK CLUB.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Sobre amor e proteção."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "SEM ANISTIA", 
         file: "../audios/spotifydown.com - SEM ANISTIA.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Mensagem de fé e resiliência."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "MAHORAGA", 
         file: "../audios/spotifydown.com - MAORAGA.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Sobre a história e luta dos negros."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "METE MARCHA", 
         file: "../audios/spotifydown.com - METE MARCHA.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Explora o drama vivido nas periferias."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "A HORDA", 
         file: "../audios/spotifydown.com - A HORDA.mp3", 
         artist: "Black Pantera", 
         cover: "../img/capas/Capa-b.jpg", 
-        sobre: "Rap como forma de expressão e terapia."
+        sobre: "A banda foi formada em abril de 2014 na cidade de Uberaba, pelos irmãos Charles Gama (guitarra, vocal, letras) e Chaene da Gama (baixo) juntamente ao baterista Rodrigo 'Pancho' Augusto. Todos são negros e a banda aborda temas como política, racismo e discriminação em geral em suas letras. O nome da banda é uma homenagem aos Panteras Negras."
     },
     { 
         title: "Diário de um Detento", 
         file: "../audios/spotifydown.com - Diário de um Detento.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais1.jpg", 
-        sobre: "Sobre as dificuldades e alegrias da periferia."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     },
     { 
         title: "Periferia É Periferia", 
         file: "../audios/spotifydown.com - Periferia É Periferia.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais1.jpg", 
-        sobre: "Letra sobre compromissos e dívidas."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     },
     { 
         title: "Capítulo 4, Versículo 3", 
         file: "../audios/spotifydown.com - Capítulo 4, Versículo 3.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais1.jpg", 
-        sobre: "Uma mensagem sobre ser o protagonista da própria história."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     },
     { 
         title: "Negro Drama", 
         file: "../audios/spotifydown.com - Negro Drama.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais2.jpg", 
-        sobre: "Canção inspirada em provérbios populares."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     },
     { 
         title: "Na Fé Firmão", 
         file: "../audios/spotifydown.com - Na Fé Firmão.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais2.jpg", 
-        sobre: "Inspirada na resistência negra."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     },
     { 
         title: "Jesus Chorou", 
         file: "../audios/spotifydown.com - Jesus Chorou.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais2.jpg", 
-        sobre: "Denuncia o racismo na sociedade."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     },
     { 
         title: "Trutas e Quebradas", 
         file: "../audios/spotifydown.com - Trutas e Quebradas.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais2.jpg", 
-        sobre: "Canção introspectiva sobre erros e redenção."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     },
     { 
         title: "Da Ponte pra Cá", 
         file: "../audios/spotifydown.com - Da Ponte pra Cá.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais2.jpg", 
-        sobre: "Protesto contra injustiças."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     },
     { 
         title: "Meu Talismã", 
         file: "../audios/spotifydown.com - Meu Talismã.mp3", 
         artist: "IZA", 
         cover: "../img/capas/Capa-iza.jpg", 
-        sobre: "Sobre entendimento e comunicação."
+        sobre: "IZA é uma cantora e compositora do Rio de Janeiro, conhecida por misturar pop, R&B e reggae em suas músicas. Ela ganhou destaque com hits como Pesadão e Dona de Mim, abordando temas de empoderamento e diversidade. Além da música, IZA é reconhecida por sua presença marcante e por defender causas sociais."
     },
     { 
         title: "É o Poder", 
         file: "../audios/spotifydown.com - É o Poder.mp3", 
         artist: "Karol Conká", 
         cover: "../img/capas/Capa-karol.jpg", 
-        sobre: "Explora as realidades das ruas."
+        sobre: "Karol Conká é uma cantora conhecida por suas composições que exaltam a mulher e a cultura negra. As canções refletem suas vivências como uma mulher negra, bissexual, que se tornou mãe solteira aos 19 anos enquanto lutava por um espaço como cantora."
     },
     { 
         title: "Dandalunda", 
         file: "../audios/spotifydown.com - Dandalunda.mp3", 
         artist: "Margareth Menezes", 
         cover: "../img/capas/Capa-margareth.jpg", 
-        sobre: "Homenagem à cultura indígena do Xingu."
+        sobre: "Margareth Menezes da Purificação Costa,nasceu em Salvador no dia 13 de outubro de 1962,é uma cantora, compositora, atriz e política brasileira. Em 2023, tornou-se ministra da Cultura do Brasil no governo Lula. É ganhadora de dois troféus Caymmi, dois troféus Imprensa, quatro troféus Dodô e Osmar, além de ter sido indicada para o GRAMMY Awards e GRAMMY Latino. Contabiliza 21 turnês mundiais, e foi considerada pelo jornal Los Angeles Times, como a 'Aretha Franklin brasileira'."
     }, 
     { 
         title: "Formula Mágica da Paz - Ao Vivo", 
         file: "../audios/spotifydown.com - Formula Mágica da Paz - Ao Vivo.mp3", 
         artist: "Racionais MC's", 
         cover: "../img/capas/Capa-racionais3.jpg", 
-        sobre: "Homenagem à cultura indígena do Xingu."
+        sobre: "Racionais MC's é um grupo brasileiro de rap fundado em 1988 na cidade de São Paulo. É formado por Mano Brown, Ice Blue, Edi Rock e KL Jay. É o maior grupo de rap do Brasil, e está entre os grupos musicais mais influentes do país e da música brasileira."
     }
 ];
 
